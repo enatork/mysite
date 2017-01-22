@@ -6,8 +6,8 @@ angular.module('app').directive('wordRotator', function(){
 
 		element.rotate = function(options){
 				var defaults = {
-	        	fadeSpeed: 500,
-	        	pauseSpeed: 100,
+	        	fadeSpeed: 2000,
+	        	pauseSpeed: 5000,
 				child:null
 		    	};
 		    

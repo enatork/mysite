@@ -84,6 +84,7 @@
   border: 10px solid #4b4b4b;
   text-align: left;
   width: 200px;
+  height: 250px;
   color: #4B4B4B;
 }
 .home-description{
@@ -160,6 +161,12 @@
   padding: 15px 0;
 }
 .fa{
+  float: right;
+  margin-right:10px;
+  margin-top: 10px;
+}
+.smiley{
+  font-size: 13em;
   float: right;
   margin-right:10px;
   margin-top: 10px;
@@ -365,6 +372,11 @@ canvas{
   .projectBlock{
 
   }
+  .smiley{
+    font-size: 13em;
+    float:none !important;
+    margin-right: 0px !important;
+  }
 }
 @media only screen and (max-width: 400px){
   .blurb{
@@ -394,4 +406,5 @@ canvas{
   .footer-bar{
     display: none;
   }
+
 }

@@ -16,11 +16,7 @@ angular.module('app').service('navService',  function(){
 		{
 			name: 'resume',
 			state: 'resume'
-		},
-		{
-			name: 'recipes',
-			state: 'recipes'
-		}
+		}		
 		]
 	}
 });

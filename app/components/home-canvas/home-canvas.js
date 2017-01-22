@@ -15,8 +15,8 @@ var homeCanvasController = (function(){
   };
 
   var dots = {
-    nb: 180,
-    distance: 80,
+    nb: 300,
+    distance: 100,
     d_radius: 150,
     array: []
   };

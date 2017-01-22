@@ -3,7 +3,7 @@ angular.module('app').service('httpManager', ['$http', function($http){
 	var me = this;
 	me.$http = $http;
 	
-	this.http = function(headers, url, data, method){
+	this.http = function(method, headers, url, data){
 
 		 if (method === "GET") {
             return promise = me.$http({
